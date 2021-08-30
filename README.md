@@ -11,6 +11,7 @@ docker image: **meliszhold/sun_api**
 Команда для запуска: **docker-compose up**
 
 После запуска перейдите на: **http://localhost/**
+
 Исходники тут: **https://github.com/melis/sun**
 
 По задачи надо было с фронта обращатся на базу, но я решил написат back(api) на node и обернуть все это на docker контейнеры и запускат через docker-compose. Создал proxy nginx:alpine и пробросил внутр настройки прокси. Исходники тут: https://github.com/melis/sun
