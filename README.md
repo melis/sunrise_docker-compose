@@ -2,11 +2,11 @@
 
 **Frontend**
 React Redux redux-thunk axios
-docker image: melishold/sun_front
+docker image: **melishold/sun_front**
 
 **Backend Api**
 NodeJs Express MongoDB Cloud
-docker image: meliszhold/sun_api
+docker image: **meliszhold/sun_api**
 
 Команда для запуска: **docker-compose up**
 
