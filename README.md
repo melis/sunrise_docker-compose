@@ -1,6 +1,6 @@
 **ТЗ Pokemon Web App**
 
-Здес только **docker-compose.yml** для запуска и настройки сервисов. Исходники тут: https://github.com/melis/sun
+Здес только **docker-compose.yml** для запуска и настройки сервисов **nginx.conf** для настройки прокси сервиса. Исходники тут: https://github.com/melis/sun
 
 По задачи надо было с фронта обращатся на базу, но я решил написат back(api) на node и обернуть все это на docker контейнеры и запускат через docker-compose. Создал proxy nginx:alpine и пробросил внутр настройки прокси. 
 
