@@ -1,7 +1,8 @@
 **ТЗ Pokemon Web App**
 
+Здес только **docker-compose.yml** для запуска и настройки сервисов. Исходники тут: https://github.com/melis/sun
 
-По задачи надо было с фронта обращатся на базу, но я решил написат back(api) на node и обернуть все это на docker контейнеры и запускат через docker-compose. Создал proxy nginx:alpine и пробросил внутр настройки прокси. Исходники тут: https://github.com/melis/sun
+По задачи надо было с фронта обращатся на базу, но я решил написат back(api) на node и обернуть все это на docker контейнеры и запускат через docker-compose. Создал proxy nginx:alpine и пробросил внутр настройки прокси. 
 
 **Frontend**
 React Redux redux-thunk axios
