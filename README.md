@@ -4,12 +4,10 @@
 
 По задачи надо было с фронта обращатся на базу, но я решил написат back(api) на node и обернуть все это на docker контейнеры и запускат через docker-compose. Создал proxy nginx:alpine и пробросил внутр настройки прокси. 
 
-**Frontend**
-React Redux redux-thunk axios
+Frontend
 **docker image: melishold/sun_front**
 
-**Backend Api**
-NodeJs Express MongoDB Cloud
+Backend Api
 **docker image:meliszhold/sun_api**
 
 Команда для запуска: **docker-compose up**
