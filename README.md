@@ -1,5 +1,8 @@
 **ТЗ Pokemon Web App**
 
+
+По задачи надо было с фронта обращатся на базу, но я решил написат back(api) на node и обернуть все это на docker контейнеры и запускат через docker-compose. Создал proxy nginx:alpine и пробросил внутр настройки прокси. Исходники тут: https://github.com/melis/sun
+
 **Frontend**
 React Redux redux-thunk axios
 docker image: **melishold/sun_front**
@@ -14,7 +17,6 @@ docker image: **meliszhold/sun_api**
 
 Исходники тут: **https://github.com/melis/sun**
 
-По задачи надо было с фронта обращатся на базу, но я решил написат back(api) на node и обернуть все это на docker контейнеры и запускат через docker-compose. Создал proxy nginx:alpine и пробросил внутр настройки прокси. Исходники тут: https://github.com/melis/sun
 
 **Pokemon Web App**
 Create web application with the stack of technologies: ➔ React
